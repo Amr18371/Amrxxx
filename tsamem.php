@@ -5,7 +5,7 @@
 @Api_File_Code
 */
 ob_start();
-$API_KEY = "توكنك";
+$API_KEY = "5938865103:AAF3k5Zl-_IqRAwMRXsfPLU12TNOQHH5w5M";
 define('API_KEY',$API_KEY);
  file_get_contents("https://api.telegram.org/bot" . API_KEY . "/setwebhook?url=" . $_SERVER['SERVER_NAME'] . "" . $_SERVER['SCRIPT_NAME']);
  echo "<html>
